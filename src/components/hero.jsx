@@ -4,8 +4,11 @@ const Hero = () => {
         <>
             <header className="hero">
                 <div className="left-part">
-                    <h1 className="main-head">Lorem ipsum is placeholder text commonly used in the graphic.</h1>
-                    <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h1 className="main-head">
+                        <span className="rapid">Rapid Calculator |</span>
+                        <br />
+                        <span className="inside-rapid">Your All-in-One Tool for Quick and Accurate Calculations</span></h1>
+                    <p className="para">Your Ultimate Tool for Quick Calculations! Easily determine ages, calculate time intervals, work with dates and hours, compute BMI and GPA, all in one place. </p>
                     {/* <button className="btn">Explore</button> */}
 
                     <button className="button-75" role="button"><span className="text" href="#tools">EXPLORE</span></button>
