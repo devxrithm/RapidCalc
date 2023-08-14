@@ -3,6 +3,7 @@ const Sechero = () => {
         <>
             <section id="tools" className="sec-container">
             <h1 className="sec-head">TOOLS</h1>
+                <p className="sec-para">Discover the Convenience of Rapid Calculator: Swiftly compute ages, time spans, dates, hours, BMI, and GPA. Experience hassle-free calculations with Rapid Calculator today.</p>
             <div className="container">   
                 <div className="box">
                     <img height="100" width="100" className="box-img" src="https://cdn-icons-png.flaticon.com/128/4753/4753240.png" alt="Image 1" />

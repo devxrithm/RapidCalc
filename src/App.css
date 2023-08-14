@@ -232,7 +232,12 @@ padding:1.5rem 3rem;
     height:auto
 
 }
-
+.sec-para{
+    color:white;
+    text-align:center;
+    padding:.5rem 18rem;
+    font-size:1.5rem;
+}
 @media (max-width: 950px) {
   /* For mobile devices, one box per row */
   .container {
