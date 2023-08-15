@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -11,8 +13,9 @@ const Hero = () => {
                     <p className="para">Your Ultimate Tool for Quick Calculations! Easily determine ages, calculate time intervals, work with dates and hours, compute BMI and GPA, all in one place. </p>
                     {/* <button className="btn">Explore</button> */}
 
-                    <button className="button-75" role="button"><span className="text" href="#tools">EXPLORE</span></button>
-
+                    <button className="button-75" role="button">
+                        <Link to="#tools" >EXPLORE</Link >
+                    </button>
 
                 </div>
 

@@ -157,7 +157,7 @@ padding:1.5rem 3rem;
   opacity: .75;
 }
 
-@media (max-width:850px){  
+@media (max-width:900px){  
     .button-75 {
     font-size: 15px;
     height: 50px;
@@ -193,7 +193,7 @@ padding:1.5rem 3rem;
     font-size:2rem
 }
 .img-1{
-    width:20rem;
+    width:18rem;
     height:auto
 }
     .inside-rapid{
@@ -228,14 +228,14 @@ padding:1.5rem 3rem;
 }
 
 .box-img{
-    width:15%;
+    width:20%;
     height:auto
 
 }
 .sec-para{
     color:white;
     text-align:center;
-    padding:.5rem 18rem;
+    padding:.5rem 10rem;
     font-size:1.5rem;
 }
 @media (max-width: 950px) {
@@ -253,6 +253,13 @@ padding:1.5rem 3rem;
     height:auto
 
 }
+    .sec-para{
+    color:white;
+    text-align:center;
+    padding:.5rem 1rem;
+    font-size:1rem;
+}
+    
 }
 .sec-head{
     text-align:center;
