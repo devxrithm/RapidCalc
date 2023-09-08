@@ -1,0 +1,146 @@
+.main-age-div{
+    background: #0d131c;
+    /* background:#ffffff; */
+    padding:5rem 0rem;
+}
+
+.main-age-container{
+    /* border:2px solid  #1b2631; */
+    margin:0rem 20rem;
+    padding:2rem 3rem;
+    border-radius:.5rem;
+    /* background:#151e28; */
+    background:#fffcfa;
+    box-shadow: 0px 3px #544f4a;
+}
+.age-head{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+    font-weight:bold;
+}
+hr{
+    color:#1b2631
+}
+.img-age{
+    width:3.5rem;
+    height:auto
+}
+
+.age-head-2{
+    margin-top:1rem;
+}
+.internal-age{
+    display:flex;
+    flex-direction:column;
+    gap:1rem
+}
+.internal-age-1{
+    display:flex;
+    gap:2rem;
+    align-items:center;
+    
+}
+DatePicker{
+    border:1px solid white
+}
+
+.internal-age-2{
+    display:flex;
+    gap:2rem;
+    align-items:center;
+}
+
+.select-p{
+    background-color:#003f5c;
+    color:white;
+    padding:.8rem 1rem;
+    border-radius:.5rem;
+    display:flex;
+    align-items:center;
+    gap:2.2rem;
+    width:38%
+}
+.select-p-1{
+    background-color:#003f5c;
+    color:white;
+    padding:.8rem 1rem;
+    border-radius:.5rem;
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    width:38%
+}
+.down-arrow{
+    width:15%
+}
+
+.age-btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:.5rem;
+    cursor:pointer;
+    
+}
+.btn-age{
+    padding:.7rem 1.5rem;
+    color:white;
+    font-size:1.1rem;
+    font-weight:bold;
+    border-radius:.5rem;
+    background: rgb(246,65,108);
+background: linear-gradient(2deg, rgba(246,65,108,1) 0%, rgba(255,246,183,1) 100%);
+    border:none;
+    box-shadow: 0px 2px #b8b7b7;
+}
+.age-btn-arrow{
+    width:1.8rem
+}
+.btn-age:hover{
+    transform: scale(.9);
+}
+hr{
+    margin-top:1rem
+}
+
+.result{
+ border:1px solid;
+ padding:2rem 3rem   
+}
+@media(max-width:920px){
+.main-age-container{
+    margin:0rem 1.2rem;
+    padding:1rem 1rem;
+    background:#ffffff;
+}
+.age-head{
+    font-size:.8rem;
+    
+}
+    .img-age{
+    width:3rem;
+    height:auto
+}
+    .internal-age-1{
+    display:grid;
+        gap:.5rem
+      
+}
+    .internal-age-2{
+    display:grid;
+        gap:.7rem
+   
+}
+
+.select-p{
+    padding:.7rem 1rem;
+    width:69%
+}
+.select-p-1{
+    padding:.7rem 1rem;
+    width:69%
+}
+
+}

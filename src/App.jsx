@@ -1,19 +1,30 @@
 import './App.css'
-// import AgeCal from './components/Age/agecal'
+import AgeCal from './components/Age/Agecal'
 import Nav from './components/Nav'
 import Hero from './components/hero'
-import Sechero from './components/SecHero'
-import { BrowserRouter as Router } from 'react-router-dom';
+import Footer from './components/Footer';
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
+
 
 export default function App() {
     return (
-        <> 
+        <>
             <Router>
-            {/* <h1>ukcode</h1> */}
-            {/* <AgeCal /> */}
-            <Nav/>
-            <Hero/>
-            <Sechero/>
+                <Nav />
+                <Switch>
+                    <Route exact path="/">
+                        <Hero />
+                    </Route>
+                    <Route exact path="/about">
+                        <AgeCal />
+                    </Route>
+                </Switch>
+                <Footer />
             </Router>
         </>
     )
